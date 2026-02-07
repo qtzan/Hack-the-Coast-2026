@@ -1,0 +1,2648 @@
+[
+    {
+        "generic_name": "atorvastatin",
+        "brand_names": [
+            "Lipitor"
+        ],
+        "uses": [
+            "High cholesterol",
+            "Cardiovascular risk reduction"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Upset stomach",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Large amounts of grapefruit/grapefruit juice"
+            ],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Seek care urgently for severe muscle pain/weakness or dark urine."
+        }
+    },
+    {
+        "generic_name": "rosuvastatin",
+        "brand_names": [
+            "Crestor"
+        ],
+        "uses": [
+            "High cholesterol",
+            "Cardiovascular risk reduction"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Nausea",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Report unexplained muscle pain/weakness."
+        }
+    },
+    {
+        "generic_name": "simvastatin",
+        "brand_names": [
+            "Zocor"
+        ],
+        "uses": [
+            "High cholesterol"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Upset stomach",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (often taken in the evening).",
+            "avoid": [
+                "Grapefruit/grapefruit juice"
+            ],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Higher interaction risk than some other statins."
+        }
+    },
+    {
+        "generic_name": "ezetimibe",
+        "brand_names": [
+            "Zetia"
+        ],
+        "uses": [
+            "High cholesterol (often with a statin)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Stomach pain",
+            "Fatigue",
+            "Muscle pain (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Use alcohol in moderation.",
+            "notes": "Tell clinician if used with a statin and you develop muscle symptoms."
+        }
+    },
+    {
+        "generic_name": "amlodipine",
+        "brand_names": [
+            "Norvasc"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina (chest pain)"
+        ],
+        "side_effects": [
+            "Swelling (ankles/feet)",
+            "Dizziness",
+            "Flushing",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Excess grapefruit intake may increase levels in some people"
+            ],
+            "alcohol": "Alcohol can worsen dizziness/low blood pressure.",
+            "notes": "Stand up slowly if dizzy."
+        }
+    },
+    {
+        "generic_name": "lisinopril",
+        "brand_names": [
+            "Prinivil",
+            "Zestril"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure",
+            "Kidney protection in diabetes (some patients)"
+        ],
+        "side_effects": [
+            "Cough",
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Seek care for swelling of face/lips/tongue (rare allergy/angioedema)."
+        }
+    },
+    {
+        "generic_name": "losartan",
+        "brand_names": [
+            "Cozaar"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Kidney protection in diabetes (some patients)"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Often used if ACE inhibitors cause cough."
+        }
+    },
+    {
+        "generic_name": "valsartan",
+        "brand_names": [
+            "Diovan"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure (some patients)"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Monitor blood pressure as directed."
+        }
+    },
+    {
+        "generic_name": "hydrochlorothiazide",
+        "brand_names": [
+            "Microzide"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Fluid retention (edema)"
+        ],
+        "side_effects": [
+            "Frequent urination",
+            "Low sodium/potassium",
+            "Dizziness",
+            "Increased sun sensitivity"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Can worsen dizziness/dehydration.",
+            "notes": "Often best taken in the morning to avoid nighttime urination."
+        }
+    },
+    {
+        "generic_name": "metoprolol",
+        "brand_names": [
+            "Lopressor",
+            "Toprol-XL"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina",
+            "Heart rhythm control (some patients)"
+        ],
+        "side_effects": [
+            "Fatigue",
+            "Dizziness",
+            "Slow heart rate",
+            "Cold hands/feet"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with or right after food to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "May increase dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "furosemide",
+        "brand_names": [
+            "Lasix"
+        ],
+        "uses": [
+            "Fluid retention (edema)",
+            "Heart failure-related swelling"
+        ],
+        "side_effects": [
+            "Frequent urination",
+            "Dehydration",
+            "Low potassium",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Can worsen dehydration/dizziness.",
+            "notes": "Often taken earlier in the day."
+        }
+    },
+    {
+        "generic_name": "spironolactone",
+        "brand_names": [
+            "Aldactone"
+        ],
+        "uses": [
+            "Heart failure (some patients)",
+            "Fluid retention",
+            "High blood pressure (some patients)"
+        ],
+        "side_effects": [
+            "High potassium",
+            "Breast tenderness",
+            "Menstrual changes",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "High-potassium supplements/salt substitutes unless told otherwise"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Potassium monitoring is commonly needed."
+        }
+    },
+    {
+        "generic_name": "clopidogrel",
+        "brand_names": [
+            "Plavix"
+        ],
+        "uses": [
+            "Prevention of blood clots after stroke/heart attack",
+            "After certain stents"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Bruising",
+            "Upset stomach",
+            "Rash (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol increases bleeding risk in some people.",
+            "notes": "Tell a clinician before surgery/dental work."
+        }
+    },
+    {
+        "generic_name": "acetylsalicylic acid",
+        "brand_names": [
+            "Aspirin",
+            "Bayer"
+        ],
+        "uses": [
+            "Pain/fever (some products)",
+            "Low-dose clot prevention (some patients)"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Not for children/teens with viral illness unless directed (Reye’s syndrome risk)."
+        }
+    },
+    {
+        "generic_name": "metformin",
+        "brand_names": [
+            "Glucophage"
+        ],
+        "uses": [
+            "Type 2 diabetes"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea/vomiting",
+            "Stomach upset",
+            "Metallic taste"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with meals to reduce stomach side effects.",
+            "avoid": [
+                "Excess alcohol (rare lactic acidosis risk)"
+            ],
+            "alcohol": "Avoid heavy alcohol use.",
+            "notes": "GI side effects are common early and often improve."
+        }
+    },
+    {
+        "generic_name": "empagliflozin",
+        "brand_names": [
+            "Jardiance"
+        ],
+        "uses": [
+            "Type 2 diabetes",
+            "Heart failure benefit in some patients"
+        ],
+        "side_effects": [
+            "Genital yeast infection",
+            "Urinary tract infection",
+            "Increased urination",
+            "Dehydration"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May worsen dehydration risk.",
+            "notes": "Stay hydrated; seek care for severe nausea/vomiting or signs of dehydration."
+        }
+    },
+    {
+        "generic_name": "semaglutide",
+        "brand_names": [
+            "Ozempic",
+            "Rybelsus",
+            "Wegovy"
+        ],
+        "uses": [
+            "Type 2 diabetes (some forms)",
+            "Weight management (some forms)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Vomiting",
+            "Diarrhea/constipation",
+            "Decreased appetite"
+        ],
+        "additional_information": {
+            "food_consumption": "Injectable forms: no food requirement. Oral form: take as directed on an empty stomach (product-specific).",
+            "avoid": [],
+            "alcohol": "Use moderation (GI side effects).",
+            "notes": "Different brands/forms have different indications and instructions."
+        }
+    },
+    {
+        "generic_name": "insulin glargine",
+        "brand_names": [
+            "Lantus",
+            "Basaglar",
+            "Toujeo"
+        ],
+        "uses": [
+            "Diabetes (long-acting insulin)"
+        ],
+        "side_effects": [
+            "Low blood sugar",
+            "Weight gain",
+            "Injection-site reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Food timing depends on the insulin plan; follow clinician instructions.",
+            "avoid": [
+                "Skipping meals if you use insulin (hypoglycemia risk)"
+            ],
+            "alcohol": "Alcohol can increase risk of low blood sugar.",
+            "notes": "Hypoglycemia awareness is essential."
+        }
+    },
+    {
+        "generic_name": "levothyroxine",
+        "brand_names": [
+            "Synthroid",
+            "Eltroxin"
+        ],
+        "uses": [
+            "Hypothyroidism"
+        ],
+        "side_effects": [
+            "If dose too high: palpitations, anxiety, insomnia, weight loss"
+        ],
+        "additional_information": {
+            "food_consumption": "Typically taken on an empty stomach, same time daily; separate from calcium/iron by several hours (product guidance).",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Consistency matters for absorption."
+        }
+    },
+    {
+        "generic_name": "cholecalciferol",
+        "brand_names": [
+            "Vitamin D3 (various)"
+        ],
+        "uses": [
+            "Vitamin D deficiency",
+            "Bone health support"
+        ],
+        "side_effects": [
+            "Usually none at typical doses",
+            "High doses: nausea, constipation, high calcium (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Often absorbed better with food that contains fat.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Dose varies widely—avoid megadoses unless instructed."
+        }
+    },
+    {
+        "generic_name": "alendronate",
+        "brand_names": [
+            "Fosamax"
+        ],
+        "uses": [
+            "Osteoporosis"
+        ],
+        "side_effects": [
+            "Heartburn",
+            "Esophageal irritation",
+            "Stomach upset",
+            "Muscle/joint pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Take first thing in the morning with plain water on an empty stomach; stay upright afterward (product-specific).",
+            "avoid": [
+                "Food/coffee/juice right after dosing (reduces absorption)"
+            ],
+            "alcohol": "Moderation; alcohol can worsen bone health.",
+            "notes": "Follow the specific administration steps closely."
+        }
+    },
+    {
+        "generic_name": "pantoprazole",
+        "brand_names": [
+            "Protonix"
+        ],
+        "uses": [
+            "GERD",
+            "Stomach ulcers",
+            "Acid reflux"
+        ],
+        "side_effects": [
+            "Headache",
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken before a meal (timing depends on indication).",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "Long-term use should be reviewed periodically."
+        }
+    },
+    {
+        "generic_name": "omeprazole",
+        "brand_names": [
+            "Prilosec"
+        ],
+        "uses": [
+            "GERD",
+            "Acid reflux",
+            "Ulcers"
+        ],
+        "side_effects": [
+            "Headache",
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken before meals (follow product directions).",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "May interact with some medications; check with a pharmacist."
+        }
+    },
+    {
+        "generic_name": "famotidine",
+        "brand_names": [
+            "Pepcid"
+        ],
+        "uses": [
+            "Heartburn",
+            "GERD",
+            "Ulcer symptoms"
+        ],
+        "side_effects": [
+            "Headache",
+            "Dizziness",
+            "Constipation or diarrhea"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "Often used as needed for heartburn."
+        }
+    },
+    {
+        "generic_name": "polyethylene glycol 3350",
+        "brand_names": [
+            "RestoraLAX",
+            "MiraLAX"
+        ],
+        "uses": [
+            "Constipation"
+        ],
+        "side_effects": [
+            "Bloating",
+            "Gas",
+            "Nausea",
+            "Diarrhea (if too much)"
+        ],
+        "additional_information": {
+            "food_consumption": "Mix with liquid; can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; hydration matters.",
+            "notes": "Drink fluids; avoid long-term daily use unless advised."
+        }
+    },
+    {
+        "generic_name": "ondansetron",
+        "brand_names": [
+            "Zofran"
+        ],
+        "uses": [
+            "Nausea and vomiting"
+        ],
+        "side_effects": [
+            "Headache",
+            "Constipation",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May worsen dizziness.",
+            "notes": "Tell a clinician if you have heart rhythm issues (QT concerns in some cases)."
+        }
+    },
+    {
+        "generic_name": "salbutamol",
+        "brand_names": [
+            "Ventolin",
+            "Airomir"
+        ],
+        "uses": [
+            "Asthma relief",
+            "Wheezing/bronchospasm"
+        ],
+        "side_effects": [
+            "Tremor",
+            "Fast heart rate",
+            "Nervousness",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "If needing it much more often than usual, seek medical review."
+        }
+    },
+    {
+        "generic_name": "fluticasone (nasal)",
+        "brand_names": [
+            "Flonase"
+        ],
+        "uses": [
+            "Allergic rhinitis (nasal allergies)"
+        ],
+        "side_effects": [
+            "Nose irritation",
+            "Nosebleeds",
+            "Sore throat",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Best effect after regular daily use for several days."
+        }
+    },
+    {
+        "generic_name": "budesonide/formoterol",
+        "brand_names": [
+            "Symbicort"
+        ],
+        "uses": [
+            "Asthma control",
+            "COPD control (some patients)"
+        ],
+        "side_effects": [
+            "Hoarseness",
+            "Oral thrush",
+            "Tremor",
+            "Fast heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Rinse mouth after use to reduce thrush."
+        }
+    },
+    {
+        "generic_name": "montelukast",
+        "brand_names": [
+            "Singulair"
+        ],
+        "uses": [
+            "Asthma prevention",
+            "Allergic rhinitis (some patients)"
+        ],
+        "side_effects": [
+            "Headache",
+            "Stomach pain",
+            "Mood changes (rare but important)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Report new mood, sleep, or behavior changes."
+        }
+    },
+    {
+        "generic_name": "cetirizine",
+        "brand_names": [
+            "Reactine",
+            "Zyrtec"
+        ],
+        "uses": [
+            "Allergies",
+            "Hives"
+        ],
+        "side_effects": [
+            "Drowsiness (sometimes)",
+            "Dry mouth",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can increase drowsiness.",
+            "notes": "Non-drowsy for many people, but not all."
+        }
+    },
+    {
+        "generic_name": "loratadine",
+        "brand_names": [
+            "Claritin"
+        ],
+        "uses": [
+            "Allergies"
+        ],
+        "side_effects": [
+            "Headache",
+            "Dry mouth",
+            "Drowsiness (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol may increase drowsiness in some.",
+            "notes": "Often considered non-drowsy."
+        }
+    },
+    {
+        "generic_name": "amoxicillin",
+        "brand_names": [
+            "Amoxil"
+        ],
+        "uses": [
+            "Bacterial infections (varies by diagnosis)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash",
+            "Yeast infection"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce stomach upset).",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Seek care for severe rash, hives, or trouble breathing (allergy)."
+        }
+    },
+    {
+        "generic_name": "amoxicillin/clavulanate",
+        "brand_names": [
+            "Augmentin"
+        ],
+        "uses": [
+            "Bacterial infections (broader coverage)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash",
+            "Liver enzyme changes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Diarrhea is common; seek care if severe/watery or bloody."
+        }
+    },
+    {
+        "generic_name": "azithromycin",
+        "brand_names": [
+            "Zithromax"
+        ],
+        "uses": [
+            "Bacterial infections (selected types)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce nausea).",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Tell clinician if you have heart rhythm issues (QT concerns in some cases)."
+        }
+    },
+    {
+        "generic_name": "cephalexin",
+        "brand_names": [
+            "Keflex"
+        ],
+        "uses": [
+            "Bacterial infections (skin, urinary, etc. depending on diagnosis)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Tell clinician about severe penicillin allergy history."
+        }
+    },
+    {
+        "generic_name": "nitrofurantoin",
+        "brand_names": [
+            "Macrobid"
+        ],
+        "uses": [
+            "Uncomplicated urinary tract infection (UTI)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Brown urine (can happen)",
+            "Rare lung/liver reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food/milk to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "Moderation.",
+            "notes": "Not used for kidney infections; seek care for fever/flank pain."
+        }
+    },
+    {
+        "generic_name": "doxycycline",
+        "brand_names": [
+            "Vibramycin"
+        ],
+        "uses": [
+            "Bacterial infections",
+            "Acne (some patients)",
+            "Tick-borne infections (some cases)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Sun sensitivity",
+            "Heartburn/esophageal irritation"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with water; food may reduce nausea (avoid lying down right after).",
+            "avoid": [
+                "Taking with calcium/iron close to dose can reduce absorption (check label)"
+            ],
+            "alcohol": "Moderation.",
+            "notes": "Use sun protection."
+        }
+    },
+    {
+        "generic_name": "ciprofloxacin",
+        "brand_names": [
+            "Cipro"
+        ],
+        "uses": [
+            "Bacterial infections (selected types)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Diarrhea",
+            "Dizziness",
+            "Tendon pain (rare but serious)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Dairy/antacids close to dose can reduce absorption (check label)"
+            ],
+            "alcohol": "Moderation.",
+            "notes": "Stop and seek care for tendon pain/swelling."
+        }
+    },
+    {
+        "generic_name": "ibuprofen",
+        "brand_names": [
+            "Advil",
+            "Motrin"
+        ],
+        "uses": [
+            "Pain",
+            "Fever",
+            "Inflammation"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding risk",
+            "Kidney strain (with heavy use)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (stomach bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Avoid if you have certain kidney/ulcer issues unless advised."
+        }
+    },
+    {
+        "generic_name": "naproxen",
+        "brand_names": [
+            "Aleve"
+        ],
+        "uses": [
+            "Pain",
+            "Inflammation"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding risk",
+            "Kidney strain (with heavy use)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (stomach bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Longer-acting NSAID; avoid doubling with other NSAIDs."
+        }
+    },
+    {
+        "generic_name": "acetaminophen",
+        "brand_names": [
+            "Tylenol"
+        ],
+        "uses": [
+            "Pain",
+            "Fever"
+        ],
+        "side_effects": [
+            "Usually well tolerated at proper doses",
+            "Liver injury with overdose"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol excess (liver risk)",
+                "Doubling products that also contain acetaminophen"
+            ],
+            "alcohol": "Avoid heavy alcohol use.",
+            "notes": "Check combination cold/flu products to prevent accidental overdose."
+        }
+    },
+    {
+        "generic_name": "gabapentin",
+        "brand_names": [
+            "Neurontin"
+        ],
+        "uses": [
+            "Neuropathic pain",
+            "Seizures (some patients)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Coordination problems",
+            "Swelling (sometimes)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen drowsiness/dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "pregabalin",
+        "brand_names": [
+            "Lyrica"
+        ],
+        "uses": [
+            "Neuropathic pain",
+            "Fibromyalgia (some patients)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Weight gain",
+            "Swelling"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen drowsiness/dizziness.",
+            "notes": "Can cause sedation—use caution with driving at start."
+        }
+    },
+    {
+        "generic_name": "tramadol",
+        "brand_names": [
+            "Ultram"
+        ],
+        "uses": [
+            "Moderate pain (selected cases)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Dizziness",
+            "Constipation",
+            "Drowsiness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol",
+                "Combining with sedatives unless directed"
+            ],
+            "alcohol": "Avoid (increases sedation/overdose risk).",
+            "notes": "Controlled in many places; dependence and interaction risks exist."
+        }
+    },
+    {
+        "generic_name": "sertraline",
+        "brand_names": [
+            "Zoloft"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Sleep changes",
+            "Sexual side effects"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (be consistent).",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Full effect may take weeks; do not stop abruptly."
+        }
+    },
+    {
+        "generic_name": "escitalopram",
+        "brand_names": [
+            "Lexapro",
+            "Cipralex"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Sleep changes",
+            "Sexual side effects"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Do not stop abruptly."
+        }
+    },
+    {
+        "generic_name": "venlafaxine",
+        "brand_names": [
+            "Effexor XR"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Sweating",
+            "Increased blood pressure (some)",
+            "Withdrawal symptoms if stopped suddenly"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with food to reduce nausea.",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Tapering is important when discontinuing."
+        }
+    },
+    {
+        "generic_name": "trazodone",
+        "brand_names": [
+            "Desyrel"
+        ],
+        "uses": [
+            "Depression (sometimes)",
+            "Sleep aid (off-label in many places)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Dry mouth",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce nausea).",
+            "avoid": [
+                "Alcohol"
+            ],
+            "alcohol": "Avoid (sedation risk).",
+            "notes": "Can cause next-day grogginess."
+        }
+    },
+    {
+        "generic_name": "bisoprolol",
+        "brand_names": [
+            "Zebeta"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure (some patients)"
+        ],
+        "side_effects": [
+            "Fatigue",
+            "Dizziness",
+            "Slow heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May increase dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "diltiazem",
+        "brand_names": [
+            "Cardizem"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina",
+            "Certain arrhythmias"
+        ],
+        "side_effects": [
+            "Swelling",
+            "Headache",
+            "Dizziness",
+            "Slow heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with or without food (product-specific).",
+            "avoid": [
+                "Grapefruit/grapefruit juice (can increase levels)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Extended-release products must not be crushed."
+        }
+    },
+    {
+        "generic_name": "warfarin",
+        "brand_names": [
+            "Coumadin"
+        ],
+        "uses": [
+            "Blood clot prevention/treatment"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Keep vitamin K intake consistent (leafy greens) rather than avoiding entirely.",
+            "avoid": [],
+            "alcohol": "Limit; can affect bleeding risk and INR stability.",
+            "notes": "Requires regular INR monitoring; many drug/food interactions."
+        }
+    },
+    {
+        "generic_name": "apixaban",
+        "brand_names": [
+            "Eliquis"
+        ],
+        "uses": [
+            "Blood clot prevention/treatment"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Limit due to bleeding risk.",
+            "notes": "Tell clinicians before procedures."
+        }
+    },
+    {
+        "generic_name": "tamsulosin",
+        "brand_names": [
+            "Flomax"
+        ],
+        "uses": [
+            "Benign prostatic hyperplasia (BPH) symptoms"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "Low blood pressure",
+            "Abnormal ejaculation"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken after the same meal each day.",
+            "avoid": [],
+            "alcohol": "May worsen dizziness.",
+            "notes": "Stand slowly; risk of fainting early in therapy."
+        }
+    },
+    {
+        "generic_name": "sildenafil",
+        "brand_names": [
+            "Viagra"
+        ],
+        "uses": [
+            "Erectile dysfunction",
+            "Pulmonary hypertension (different dosing/brand)"
+        ],
+        "side_effects": [
+            "Headache",
+            "Flushing",
+            "Indigestion",
+            "Vision changes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "High-fat meals can delay onset.",
+            "avoid": [
+                "Nitrates (dangerous interaction)"
+            ],
+            "alcohol": "May reduce effectiveness and increase dizziness.",
+            "notes": "Seek urgent care for chest pain or prolonged painful erection."
+        }
+    },
+    {
+        "generic_name": "ethinyl estradiol/levonorgestrel",
+        "brand_names": [
+            "Alesse",
+            "Aviane (varies)"
+        ],
+        "uses": [
+            "Contraception",
+            "Cycle regulation"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Breast tenderness",
+            "Spotting",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Missed-dose rules depend on product; smoking increases clot risk."
+        }
+    },
+    {
+        "generic_name": "insulin aspart",
+        "brand_names": [
+            "NovoRapid",
+            "Novolog"
+        ],
+        "uses": [
+            "Diabetes (rapid-acting insulin)"
+        ],
+        "side_effects": [
+            "Low blood sugar",
+            "Weight gain",
+            "Injection-site reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Timing is tied to meals; follow your insulin plan.",
+            "avoid": [
+                "Skipping meals (hypoglycemia risk)"
+            ],
+            "alcohol": "Can increase risk of low blood sugar.",
+            "notes": "Hypoglycemia recognition and treatment is essential."
+        }
+    },
+    {
+        "generic_name": "budesonide (inhaled)",
+        "brand_names": [
+            "Pulmicort"
+        ],
+        "uses": [
+            "Asthma control"
+        ],
+        "side_effects": [
+            "Hoarseness",
+            "Oral thrush",
+            "Cough"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Rinse mouth after use."
+        }
+    },
+    {
+        "generic_name": "tiotropium",
+        "brand_names": [
+            "Spiriva"
+        ],
+        "uses": [
+            "COPD maintenance",
+            "Asthma maintenance (some patients)"
+        ],
+        "side_effects": [
+            "Dry mouth",
+            "Constipation",
+            "Urinary retention (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Not a rescue inhaler."
+        }
+    },
+    {
+        "generic_name": "atorvastatin",
+        "brand_names": [
+            "Lipitor"
+        ],
+        "uses": [
+            "High cholesterol",
+            "Cardiovascular risk reduction"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Upset stomach",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Large amounts of grapefruit/grapefruit juice"
+            ],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Seek care urgently for severe muscle pain/weakness or dark urine."
+        }
+    },
+    {
+        "generic_name": "rosuvastatin",
+        "brand_names": [
+            "Crestor"
+        ],
+        "uses": [
+            "High cholesterol",
+            "Cardiovascular risk reduction"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Nausea",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Report unexplained muscle pain/weakness."
+        }
+    },
+    {
+        "generic_name": "simvastatin",
+        "brand_names": [
+            "Zocor"
+        ],
+        "uses": [
+            "High cholesterol"
+        ],
+        "side_effects": [
+            "Muscle aches",
+            "Headache",
+            "Upset stomach",
+            "Elevated liver enzymes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (often taken in the evening).",
+            "avoid": [
+                "Grapefruit/grapefruit juice"
+            ],
+            "alcohol": "Limit heavy alcohol use (liver risk).",
+            "notes": "Higher interaction risk than some other statins."
+        }
+    },
+    {
+        "generic_name": "ezetimibe",
+        "brand_names": [
+            "Zetia"
+        ],
+        "uses": [
+            "High cholesterol (often with a statin)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Stomach pain",
+            "Fatigue",
+            "Muscle pain (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Use alcohol in moderation.",
+            "notes": "Tell clinician if used with a statin and you develop muscle symptoms."
+        }
+    },
+    {
+        "generic_name": "amlodipine",
+        "brand_names": [
+            "Norvasc"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina (chest pain)"
+        ],
+        "side_effects": [
+            "Swelling (ankles/feet)",
+            "Dizziness",
+            "Flushing",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Excess grapefruit intake may increase levels in some people"
+            ],
+            "alcohol": "Alcohol can worsen dizziness/low blood pressure.",
+            "notes": "Stand up slowly if dizzy."
+        }
+    },
+    {
+        "generic_name": "lisinopril",
+        "brand_names": [
+            "Prinivil",
+            "Zestril"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure",
+            "Kidney protection in diabetes (some patients)"
+        ],
+        "side_effects": [
+            "Cough",
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Seek care for swelling of face/lips/tongue (rare allergy/angioedema)."
+        }
+    },
+    {
+        "generic_name": "losartan",
+        "brand_names": [
+            "Cozaar"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Kidney protection in diabetes (some patients)"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Often used if ACE inhibitors cause cough."
+        }
+    },
+    {
+        "generic_name": "valsartan",
+        "brand_names": [
+            "Diovan"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure (some patients)"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "High potassium",
+            "Kidney function changes"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Salt substitutes high in potassium (ask clinician)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Monitor blood pressure as directed."
+        }
+    },
+    {
+        "generic_name": "hydrochlorothiazide",
+        "brand_names": [
+            "Microzide"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Fluid retention (edema)"
+        ],
+        "side_effects": [
+            "Frequent urination",
+            "Low sodium/potassium",
+            "Dizziness",
+            "Increased sun sensitivity"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Can worsen dizziness/dehydration.",
+            "notes": "Often best taken in the morning to avoid nighttime urination."
+        }
+    },
+    {
+        "generic_name": "metoprolol",
+        "brand_names": [
+            "Lopressor",
+            "Toprol-XL"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina",
+            "Heart rhythm control (some patients)"
+        ],
+        "side_effects": [
+            "Fatigue",
+            "Dizziness",
+            "Slow heart rate",
+            "Cold hands/feet"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with or right after food to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "May increase dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "furosemide",
+        "brand_names": [
+            "Lasix"
+        ],
+        "uses": [
+            "Fluid retention (edema)",
+            "Heart failure-related swelling"
+        ],
+        "side_effects": [
+            "Frequent urination",
+            "Dehydration",
+            "Low potassium",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Can worsen dehydration/dizziness.",
+            "notes": "Often taken earlier in the day."
+        }
+    },
+    {
+        "generic_name": "spironolactone",
+        "brand_names": [
+            "Aldactone"
+        ],
+        "uses": [
+            "Heart failure (some patients)",
+            "Fluid retention",
+            "High blood pressure (some patients)"
+        ],
+        "side_effects": [
+            "High potassium",
+            "Breast tenderness",
+            "Menstrual changes",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "High-potassium supplements/salt substitutes unless told otherwise"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Potassium monitoring is commonly needed."
+        }
+    },
+    {
+        "generic_name": "clopidogrel",
+        "brand_names": [
+            "Plavix"
+        ],
+        "uses": [
+            "Prevention of blood clots after stroke/heart attack",
+            "After certain stents"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Bruising",
+            "Upset stomach",
+            "Rash (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol increases bleeding risk in some people.",
+            "notes": "Tell a clinician before surgery/dental work."
+        }
+    },
+    {
+        "generic_name": "acetylsalicylic acid",
+        "brand_names": [
+            "Aspirin",
+            "Bayer"
+        ],
+        "uses": [
+            "Pain/fever (some products)",
+            "Low-dose clot prevention (some patients)"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Not for children/teens with viral illness unless directed (Reye’s syndrome risk)."
+        }
+    },
+    {
+        "generic_name": "metformin",
+        "brand_names": [
+            "Glucophage"
+        ],
+        "uses": [
+            "Type 2 diabetes"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea/vomiting",
+            "Stomach upset",
+            "Metallic taste"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with meals to reduce stomach side effects.",
+            "avoid": [
+                "Excess alcohol (rare lactic acidosis risk)"
+            ],
+            "alcohol": "Avoid heavy alcohol use.",
+            "notes": "GI side effects are common early and often improve."
+        }
+    },
+    {
+        "generic_name": "empagliflozin",
+        "brand_names": [
+            "Jardiance"
+        ],
+        "uses": [
+            "Type 2 diabetes",
+            "Heart failure benefit in some patients"
+        ],
+        "side_effects": [
+            "Genital yeast infection",
+            "Urinary tract infection",
+            "Increased urination",
+            "Dehydration"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May worsen dehydration risk.",
+            "notes": "Stay hydrated; seek care for severe nausea/vomiting or signs of dehydration."
+        }
+    },
+    {
+        "generic_name": "semaglutide",
+        "brand_names": [
+            "Ozempic",
+            "Rybelsus",
+            "Wegovy"
+        ],
+        "uses": [
+            "Type 2 diabetes (some forms)",
+            "Weight management (some forms)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Vomiting",
+            "Diarrhea/constipation",
+            "Decreased appetite"
+        ],
+        "additional_information": {
+            "food_consumption": "Injectable forms: no food requirement. Oral form: take as directed on an empty stomach (product-specific).",
+            "avoid": [],
+            "alcohol": "Use moderation (GI side effects).",
+            "notes": "Different brands/forms have different indications and instructions."
+        }
+    },
+    {
+        "generic_name": "insulin glargine",
+        "brand_names": [
+            "Lantus",
+            "Basaglar",
+            "Toujeo"
+        ],
+        "uses": [
+            "Diabetes (long-acting insulin)"
+        ],
+        "side_effects": [
+            "Low blood sugar",
+            "Weight gain",
+            "Injection-site reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Food timing depends on the insulin plan; follow clinician instructions.",
+            "avoid": [
+                "Skipping meals if you use insulin (hypoglycemia risk)"
+            ],
+            "alcohol": "Alcohol can increase risk of low blood sugar.",
+            "notes": "Hypoglycemia awareness is essential."
+        }
+    },
+    {
+        "generic_name": "levothyroxine",
+        "brand_names": [
+            "Synthroid",
+            "Eltroxin"
+        ],
+        "uses": [
+            "Hypothyroidism"
+        ],
+        "side_effects": [
+            "If dose too high: palpitations, anxiety, insomnia, weight loss"
+        ],
+        "additional_information": {
+            "food_consumption": "Typically taken on an empty stomach, same time daily; separate from calcium/iron by several hours (product guidance).",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Consistency matters for absorption."
+        }
+    },
+    {
+        "generic_name": "cholecalciferol",
+        "brand_names": [
+            "Vitamin D3 (various)"
+        ],
+        "uses": [
+            "Vitamin D deficiency",
+            "Bone health support"
+        ],
+        "side_effects": [
+            "Usually none at typical doses",
+            "High doses: nausea, constipation, high calcium (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Often absorbed better with food that contains fat.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Dose varies widely—avoid megadoses unless instructed."
+        }
+    },
+    {
+        "generic_name": "alendronate",
+        "brand_names": [
+            "Fosamax"
+        ],
+        "uses": [
+            "Osteoporosis"
+        ],
+        "side_effects": [
+            "Heartburn",
+            "Esophageal irritation",
+            "Stomach upset",
+            "Muscle/joint pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Take first thing in the morning with plain water on an empty stomach; stay upright afterward (product-specific).",
+            "avoid": [
+                "Food/coffee/juice right after dosing (reduces absorption)"
+            ],
+            "alcohol": "Moderation; alcohol can worsen bone health.",
+            "notes": "Follow the specific administration steps closely."
+        }
+    },
+    {
+        "generic_name": "pantoprazole",
+        "brand_names": [
+            "Protonix"
+        ],
+        "uses": [
+            "GERD",
+            "Stomach ulcers",
+            "Acid reflux"
+        ],
+        "side_effects": [
+            "Headache",
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken before a meal (timing depends on indication).",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "Long-term use should be reviewed periodically."
+        }
+    },
+    {
+        "generic_name": "omeprazole",
+        "brand_names": [
+            "Prilosec"
+        ],
+        "uses": [
+            "GERD",
+            "Acid reflux",
+            "Ulcers"
+        ],
+        "side_effects": [
+            "Headache",
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken before meals (follow product directions).",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "May interact with some medications; check with a pharmacist."
+        }
+    },
+    {
+        "generic_name": "famotidine",
+        "brand_names": [
+            "Pepcid"
+        ],
+        "uses": [
+            "Heartburn",
+            "GERD",
+            "Ulcer symptoms"
+        ],
+        "side_effects": [
+            "Headache",
+            "Dizziness",
+            "Constipation or diarrhea"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen reflux symptoms.",
+            "notes": "Often used as needed for heartburn."
+        }
+    },
+    {
+        "generic_name": "polyethylene glycol 3350",
+        "brand_names": [
+            "RestoraLAX",
+            "MiraLAX"
+        ],
+        "uses": [
+            "Constipation"
+        ],
+        "side_effects": [
+            "Bloating",
+            "Gas",
+            "Nausea",
+            "Diarrhea (if too much)"
+        ],
+        "additional_information": {
+            "food_consumption": "Mix with liquid; can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; hydration matters.",
+            "notes": "Drink fluids; avoid long-term daily use unless advised."
+        }
+    },
+    {
+        "generic_name": "ondansetron",
+        "brand_names": [
+            "Zofran"
+        ],
+        "uses": [
+            "Nausea and vomiting"
+        ],
+        "side_effects": [
+            "Headache",
+            "Constipation",
+            "Dizziness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May worsen dizziness.",
+            "notes": "Tell a clinician if you have heart rhythm issues (QT concerns in some cases)."
+        }
+    },
+    {
+        "generic_name": "salbutamol",
+        "brand_names": [
+            "Ventolin",
+            "Airomir"
+        ],
+        "uses": [
+            "Asthma relief",
+            "Wheezing/bronchospasm"
+        ],
+        "side_effects": [
+            "Tremor",
+            "Fast heart rate",
+            "Nervousness",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "If needing it much more often than usual, seek medical review."
+        }
+    },
+    {
+        "generic_name": "fluticasone (nasal)",
+        "brand_names": [
+            "Flonase"
+        ],
+        "uses": [
+            "Allergic rhinitis (nasal allergies)"
+        ],
+        "side_effects": [
+            "Nose irritation",
+            "Nosebleeds",
+            "Sore throat",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Best effect after regular daily use for several days."
+        }
+    },
+    {
+        "generic_name": "budesonide/formoterol",
+        "brand_names": [
+            "Symbicort"
+        ],
+        "uses": [
+            "Asthma control",
+            "COPD control (some patients)"
+        ],
+        "side_effects": [
+            "Hoarseness",
+            "Oral thrush",
+            "Tremor",
+            "Fast heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Rinse mouth after use to reduce thrush."
+        }
+    },
+    {
+        "generic_name": "montelukast",
+        "brand_names": [
+            "Singulair"
+        ],
+        "uses": [
+            "Asthma prevention",
+            "Allergic rhinitis (some patients)"
+        ],
+        "side_effects": [
+            "Headache",
+            "Stomach pain",
+            "Mood changes (rare but important)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Report new mood, sleep, or behavior changes."
+        }
+    },
+    {
+        "generic_name": "cetirizine",
+        "brand_names": [
+            "Reactine",
+            "Zyrtec"
+        ],
+        "uses": [
+            "Allergies",
+            "Hives"
+        ],
+        "side_effects": [
+            "Drowsiness (sometimes)",
+            "Dry mouth",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can increase drowsiness.",
+            "notes": "Non-drowsy for many people, but not all."
+        }
+    },
+    {
+        "generic_name": "loratadine",
+        "brand_names": [
+            "Claritin"
+        ],
+        "uses": [
+            "Allergies"
+        ],
+        "side_effects": [
+            "Headache",
+            "Dry mouth",
+            "Drowsiness (less common)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol may increase drowsiness in some.",
+            "notes": "Often considered non-drowsy."
+        }
+    },
+    {
+        "generic_name": "amoxicillin",
+        "brand_names": [
+            "Amoxil"
+        ],
+        "uses": [
+            "Bacterial infections (varies by diagnosis)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash",
+            "Yeast infection"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce stomach upset).",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Seek care for severe rash, hives, or trouble breathing (allergy)."
+        }
+    },
+    {
+        "generic_name": "amoxicillin/clavulanate",
+        "brand_names": [
+            "Augmentin"
+        ],
+        "uses": [
+            "Bacterial infections (broader coverage)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash",
+            "Liver enzyme changes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Diarrhea is common; seek care if severe/watery or bloody."
+        }
+    },
+    {
+        "generic_name": "azithromycin",
+        "brand_names": [
+            "Zithromax"
+        ],
+        "uses": [
+            "Bacterial infections (selected types)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Abdominal pain"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce nausea).",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Tell clinician if you have heart rhythm issues (QT concerns in some cases)."
+        }
+    },
+    {
+        "generic_name": "cephalexin",
+        "brand_names": [
+            "Keflex"
+        ],
+        "uses": [
+            "Bacterial infections (skin, urinary, etc. depending on diagnosis)"
+        ],
+        "side_effects": [
+            "Diarrhea",
+            "Nausea",
+            "Rash"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Moderation; may worsen stomach upset.",
+            "notes": "Tell clinician about severe penicillin allergy history."
+        }
+    },
+    {
+        "generic_name": "nitrofurantoin",
+        "brand_names": [
+            "Macrobid"
+        ],
+        "uses": [
+            "Uncomplicated urinary tract infection (UTI)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Brown urine (can happen)",
+            "Rare lung/liver reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food/milk to reduce stomach upset.",
+            "avoid": [],
+            "alcohol": "Moderation.",
+            "notes": "Not used for kidney infections; seek care for fever/flank pain."
+        }
+    },
+    {
+        "generic_name": "doxycycline",
+        "brand_names": [
+            "Vibramycin"
+        ],
+        "uses": [
+            "Bacterial infections",
+            "Acne (some patients)",
+            "Tick-borne infections (some cases)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Sun sensitivity",
+            "Heartburn/esophageal irritation"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with water; food may reduce nausea (avoid lying down right after).",
+            "avoid": [
+                "Taking with calcium/iron close to dose can reduce absorption (check label)"
+            ],
+            "alcohol": "Moderation.",
+            "notes": "Use sun protection."
+        }
+    },
+    {
+        "generic_name": "ciprofloxacin",
+        "brand_names": [
+            "Cipro"
+        ],
+        "uses": [
+            "Bacterial infections (selected types)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Diarrhea",
+            "Dizziness",
+            "Tendon pain (rare but serious)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Dairy/antacids close to dose can reduce absorption (check label)"
+            ],
+            "alcohol": "Moderation.",
+            "notes": "Stop and seek care for tendon pain/swelling."
+        }
+    },
+    {
+        "generic_name": "ibuprofen",
+        "brand_names": [
+            "Advil",
+            "Motrin"
+        ],
+        "uses": [
+            "Pain",
+            "Fever",
+            "Inflammation"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding risk",
+            "Kidney strain (with heavy use)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (stomach bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Avoid if you have certain kidney/ulcer issues unless advised."
+        }
+    },
+    {
+        "generic_name": "naproxen",
+        "brand_names": [
+            "Aleve"
+        ],
+        "uses": [
+            "Pain",
+            "Inflammation"
+        ],
+        "side_effects": [
+            "Stomach upset",
+            "Heartburn",
+            "Bleeding risk",
+            "Kidney strain (with heavy use)"
+        ],
+        "additional_information": {
+            "food_consumption": "Take with food to reduce stomach irritation.",
+            "avoid": [
+                "Alcohol excess (stomach bleeding risk)"
+            ],
+            "alcohol": "Increases stomach bleeding risk.",
+            "notes": "Longer-acting NSAID; avoid doubling with other NSAIDs."
+        }
+    },
+    {
+        "generic_name": "acetaminophen",
+        "brand_names": [
+            "Tylenol"
+        ],
+        "uses": [
+            "Pain",
+            "Fever"
+        ],
+        "side_effects": [
+            "Usually well tolerated at proper doses",
+            "Liver injury with overdose"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol excess (liver risk)",
+                "Doubling products that also contain acetaminophen"
+            ],
+            "alcohol": "Avoid heavy alcohol use.",
+            "notes": "Check combination cold/flu products to prevent accidental overdose."
+        }
+    },
+    {
+        "generic_name": "gabapentin",
+        "brand_names": [
+            "Neurontin"
+        ],
+        "uses": [
+            "Neuropathic pain",
+            "Seizures (some patients)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Coordination problems",
+            "Swelling (sometimes)"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen drowsiness/dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "pregabalin",
+        "brand_names": [
+            "Lyrica"
+        ],
+        "uses": [
+            "Neuropathic pain",
+            "Fibromyalgia (some patients)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Weight gain",
+            "Swelling"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Alcohol can worsen drowsiness/dizziness.",
+            "notes": "Can cause sedation—use caution with driving at start."
+        }
+    },
+    {
+        "generic_name": "tramadol",
+        "brand_names": [
+            "Ultram"
+        ],
+        "uses": [
+            "Moderate pain (selected cases)"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Dizziness",
+            "Constipation",
+            "Drowsiness"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol",
+                "Combining with sedatives unless directed"
+            ],
+            "alcohol": "Avoid (increases sedation/overdose risk).",
+            "notes": "Controlled in many places; dependence and interaction risks exist."
+        }
+    },
+    {
+        "generic_name": "sertraline",
+        "brand_names": [
+            "Zoloft"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Sleep changes",
+            "Sexual side effects"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (be consistent).",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Full effect may take weeks; do not stop abruptly."
+        }
+    },
+    {
+        "generic_name": "escitalopram",
+        "brand_names": [
+            "Lexapro",
+            "Cipralex"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Headache",
+            "Sleep changes",
+            "Sexual side effects"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Do not stop abruptly."
+        }
+    },
+    {
+        "generic_name": "venlafaxine",
+        "brand_names": [
+            "Effexor XR"
+        ],
+        "uses": [
+            "Depression",
+            "Anxiety disorders"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Sweating",
+            "Increased blood pressure (some)",
+            "Withdrawal symptoms if stopped suddenly"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with food to reduce nausea.",
+            "avoid": [
+                "Alcohol excess"
+            ],
+            "alcohol": "May worsen drowsiness/mood symptoms.",
+            "notes": "Tapering is important when discontinuing."
+        }
+    },
+    {
+        "generic_name": "trazodone",
+        "brand_names": [
+            "Desyrel"
+        ],
+        "uses": [
+            "Depression (sometimes)",
+            "Sleep aid (off-label in many places)"
+        ],
+        "side_effects": [
+            "Drowsiness",
+            "Dizziness",
+            "Dry mouth",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food (food may reduce nausea).",
+            "avoid": [
+                "Alcohol"
+            ],
+            "alcohol": "Avoid (sedation risk).",
+            "notes": "Can cause next-day grogginess."
+        }
+    },
+    {
+        "generic_name": "bisoprolol",
+        "brand_names": [
+            "Zebeta"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Heart failure (some patients)"
+        ],
+        "side_effects": [
+            "Fatigue",
+            "Dizziness",
+            "Slow heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "May increase dizziness.",
+            "notes": "Do not stop suddenly without medical advice."
+        }
+    },
+    {
+        "generic_name": "diltiazem",
+        "brand_names": [
+            "Cardizem"
+        ],
+        "uses": [
+            "High blood pressure",
+            "Angina",
+            "Certain arrhythmias"
+        ],
+        "side_effects": [
+            "Swelling",
+            "Headache",
+            "Dizziness",
+            "Slow heart rate"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken with or without food (product-specific).",
+            "avoid": [
+                "Grapefruit/grapefruit juice (can increase levels)"
+            ],
+            "alcohol": "May increase dizziness.",
+            "notes": "Extended-release products must not be crushed."
+        }
+    },
+    {
+        "generic_name": "warfarin",
+        "brand_names": [
+            "Coumadin"
+        ],
+        "uses": [
+            "Blood clot prevention/treatment"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Keep vitamin K intake consistent (leafy greens) rather than avoiding entirely.",
+            "avoid": [],
+            "alcohol": "Limit; can affect bleeding risk and INR stability.",
+            "notes": "Requires regular INR monitoring; many drug/food interactions."
+        }
+    },
+    {
+        "generic_name": "apixaban",
+        "brand_names": [
+            "Eliquis"
+        ],
+        "uses": [
+            "Blood clot prevention/treatment"
+        ],
+        "side_effects": [
+            "Bleeding",
+            "Easy bruising"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "Limit due to bleeding risk.",
+            "notes": "Tell clinicians before procedures."
+        }
+    },
+    {
+        "generic_name": "tamsulosin",
+        "brand_names": [
+            "Flomax"
+        ],
+        "uses": [
+            "Benign prostatic hyperplasia (BPH) symptoms"
+        ],
+        "side_effects": [
+            "Dizziness",
+            "Low blood pressure",
+            "Abnormal ejaculation"
+        ],
+        "additional_information": {
+            "food_consumption": "Often taken after the same meal each day.",
+            "avoid": [],
+            "alcohol": "May worsen dizziness.",
+            "notes": "Stand slowly; risk of fainting early in therapy."
+        }
+    },
+    {
+        "generic_name": "sildenafil",
+        "brand_names": [
+            "Viagra"
+        ],
+        "uses": [
+            "Erectile dysfunction",
+            "Pulmonary hypertension (different dosing/brand)"
+        ],
+        "side_effects": [
+            "Headache",
+            "Flushing",
+            "Indigestion",
+            "Vision changes (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "High-fat meals can delay onset.",
+            "avoid": [
+                "Nitrates (dangerous interaction)"
+            ],
+            "alcohol": "May reduce effectiveness and increase dizziness.",
+            "notes": "Seek urgent care for chest pain or prolonged painful erection."
+        }
+    },
+    {
+        "generic_name": "ethinyl estradiol/levonorgestrel",
+        "brand_names": [
+            "Alesse",
+            "Aviane (varies)"
+        ],
+        "uses": [
+            "Contraception",
+            "Cycle regulation"
+        ],
+        "side_effects": [
+            "Nausea",
+            "Breast tenderness",
+            "Spotting",
+            "Headache"
+        ],
+        "additional_information": {
+            "food_consumption": "Can take with or without food.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Missed-dose rules depend on product; smoking increases clot risk."
+        }
+    },
+    {
+        "generic_name": "insulin aspart",
+        "brand_names": [
+            "NovoRapid",
+            "Novolog"
+        ],
+        "uses": [
+            "Diabetes (rapid-acting insulin)"
+        ],
+        "side_effects": [
+            "Low blood sugar",
+            "Weight gain",
+            "Injection-site reactions"
+        ],
+        "additional_information": {
+            "food_consumption": "Timing is tied to meals; follow your insulin plan.",
+            "avoid": [
+                "Skipping meals (hypoglycemia risk)"
+            ],
+            "alcohol": "Can increase risk of low blood sugar.",
+            "notes": "Hypoglycemia recognition and treatment is essential."
+        }
+    },
+    {
+        "generic_name": "budesonide (inhaled)",
+        "brand_names": [
+            "Pulmicort"
+        ],
+        "uses": [
+            "Asthma control"
+        ],
+        "side_effects": [
+            "Hoarseness",
+            "Oral thrush",
+            "Cough"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Rinse mouth after use."
+        }
+    },
+    {
+        "generic_name": "tiotropium",
+        "brand_names": [
+            "Spiriva"
+        ],
+        "uses": [
+            "COPD maintenance",
+            "Asthma maintenance (some patients)"
+        ],
+        "side_effects": [
+            "Dry mouth",
+            "Constipation",
+            "Urinary retention (rare)"
+        ],
+        "additional_information": {
+            "food_consumption": "Not food-related.",
+            "avoid": [],
+            "alcohol": "No specific restriction; moderation.",
+            "notes": "Not a rescue inhaler."
+        }
+    }
+]
