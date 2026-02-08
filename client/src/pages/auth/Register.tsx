@@ -129,7 +129,25 @@ export default function Register() {
                       placeholder="Enter your doctor code"
                       className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] h-[48px]"
                       required />
-                    <p className="text-[11px] text-[rgba(0,0,0,0.4)] mt-1">Contact administration if you don't have a code</p>
+                    <div className="mt-2 bg-[#fff5eb] border border-[#f29d38] rounded-lg p-3">
+                      <p className="text-[12px] font-bold text-[#f29d38] mb-1">Demo Codes:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["BRIDGE2026", "DOCTOR001", "DOCTOR002", "DOCTOR003", "MEDSTAFF01"].map((code) => (
+                          <button
+                            key={code}
+                            type="button"
+                            onClick={() => setDoctorCode(code)}
+                            className={`text-[11px] px-2 py-1 rounded-md font-mono transition-all ${
+                              doctorCode === code
+                                ? "bg-[#f29d38] text-white"
+                                : "bg-white text-[#1e1e1e] border border-gray-200 hover:border-[#f29d38]"
+                            }`}
+                          >
+                            {code}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 )}
                 <div>

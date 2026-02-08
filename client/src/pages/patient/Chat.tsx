@@ -79,7 +79,7 @@ export default function Chat() {
   };
 
   return (
-    <div className="bg-[#e8f4f4] fixed inset-0 flex flex-col">
+    <div className="bg-[#e8f4f4] fixed inset-0 bottom-[64px] flex flex-col">
       <Header title="Health Intake" onBack={() => navigate("/patient")} />
 
       {/* Messages area */}

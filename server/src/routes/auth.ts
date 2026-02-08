@@ -8,10 +8,6 @@ const router = Router();
 // Premade doctor registration codes
 const VALID_DOCTOR_CODES = ["BRIDGE2026", "DOCTOR001", "DOCTOR002", "DOCTOR003", "MEDSTAFF01"];
 
-router.get("/doctor-codes", (_req: Request, res: Response) => {
-  res.json({ codes: VALID_DOCTOR_CODES });
-});
-
 router.post("/register", (req: Request, res: Response) => {
   const { email, password, role, fullName, dateOfBirth, age, sex, weight, allergies, emergencyContact, doctorCode } = req.body;
 
