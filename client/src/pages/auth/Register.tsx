@@ -16,6 +16,7 @@ export default function Register() {
   const [weight, setWeight] = useState("");
   const [allergies, setAllergies] = useState("");
   const [emergencyContact, setEmergencyContact] = useState("");
+  const [doctorCode, setDoctorCode] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const { register } = useAuth();
@@ -48,6 +49,7 @@ export default function Register() {
         email, password, role, fullName, dateOfBirth,
         age: age ? parseInt(age) : undefined,
         sex, weight, allergies, emergencyContact,
+        ...(role === "doctor" ? { doctorCode } : {}),
       });
       navigate(role === "doctor" ? "/doctor" : "/patient");
     } catch (err: any) {
@@ -120,6 +122,16 @@ export default function Register() {
                     </button>
                   </div>
                 </div>
+                {role === "doctor" && (
+                  <div>
+                    <label htmlFor="doctorCode" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">Doctor Registration Code</label>
+                    <input id="doctorCode" type="text" value={doctorCode} onChange={(e) => setDoctorCode(e.target.value)}
+                      placeholder="Enter your doctor code"
+                      className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] h-[48px]"
+                      required />
+                    <p className="text-[11px] text-[rgba(0,0,0,0.4)] mt-1">Contact administration if you don't have a code</p>
+                  </div>
+                )}
                 <div>
                   <label htmlFor="regEmail" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">Email</label>
                   <input id="regEmail" type="email" value={email} onChange={(e) => setEmail(e.target.value)}

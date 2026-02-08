@@ -5,8 +5,15 @@ import { authenticateToken, signToken } from "../middleware/auth.js";
 
 const router = Router();
 
+// Premade doctor registration codes
+const VALID_DOCTOR_CODES = ["BRIDGE2026", "DOCTOR001", "DOCTOR002", "DOCTOR003", "MEDSTAFF01"];
+
+router.get("/doctor-codes", (_req: Request, res: Response) => {
+  res.json({ codes: VALID_DOCTOR_CODES });
+});
+
 router.post("/register", (req: Request, res: Response) => {
-  const { email, password, role, fullName, dateOfBirth, age, sex, weight, allergies, emergencyContact } = req.body;
+  const { email, password, role, fullName, dateOfBirth, age, sex, weight, allergies, emergencyContact, doctorCode } = req.body;
 
   if (!email || !password || !fullName) {
     res.status(400).json({ error: "Email, password, and full name are required" });
@@ -14,6 +21,14 @@ router.post("/register", (req: Request, res: Response) => {
   }
 
   const validRole = role === "doctor" ? "doctor" : "patient";
+
+  // Validate doctor code if registering as doctor
+  if (validRole === "doctor") {
+    if (!doctorCode || !VALID_DOCTOR_CODES.includes(doctorCode.toUpperCase())) {
+      res.status(403).json({ error: "Invalid doctor registration code. Please contact administration." });
+      return;
+    }
+  }
   const db = getDb();
 
   const existing = db.prepare("SELECT id FROM users WHERE email = ?").get(email);
@@ -38,6 +53,12 @@ router.post("/register", (req: Request, res: Response) => {
       email,
       role: validRole,
       fullName,
+      dateOfBirth: dateOfBirth || null,
+      age: age || null,
+      sex: sex || null,
+      weight: weight || null,
+      allergies: allergies || null,
+      emergencyContact: emergencyContact || null,
     },
   });
 });
@@ -67,6 +88,12 @@ router.post("/login", (req: Request, res: Response) => {
       email: user.email,
       role: user.role,
       fullName: user.full_name,
+      dateOfBirth: user.date_of_birth,
+      age: user.age,
+      sex: user.sex,
+      weight: user.weight,
+      allergies: user.allergies,
+      emergencyContact: user.emergency_contact,
     },
   });
 });

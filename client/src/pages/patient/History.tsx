@@ -75,8 +75,8 @@ export default function History() {
 
       <div className="flex-1 overflow-y-auto pb-[100px]">
         {/* Search */}
-        <div className="px-[24px] mt-[20px] mb-[24px]">
-          <div className="bg-white rounded-[28px] h-[56px] flex items-center px-[16px] max-w-[720px]">
+        <div className="px-[24px] mt-[20px] mb-[24px] flex justify-center">
+          <div className="bg-white rounded-[28px] h-[56px] flex items-center px-[16px] w-full max-w-[720px]">
             <svg className="size-[24px] mr-3 shrink-0" fill="none" viewBox="0 0 24 24">
               <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z" fill="#49454F" />
             </svg>
