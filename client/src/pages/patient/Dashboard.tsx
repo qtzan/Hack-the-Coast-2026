@@ -35,7 +35,7 @@ export default function Dashboard() {
       <div className="bg-[#e8f4f4] shadow-sm">
         <div className="max-w-4xl mx-auto px-6 py-6">
           <p className="font-bold text-[20px] text-[rgba(0,0,0,0.3)] mb-4">
-            Patient Main Menu
+            Patient Portal
           </p>
           <div className="relative bg-white border-4 border-[#4A9EFF] rounded-lg p-8 flex items-center justify-between gap-6">
             <div className="flex-1 flex items-center justify-center gap-6">
