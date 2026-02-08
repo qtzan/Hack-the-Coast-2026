@@ -82,6 +82,12 @@ router.put("/:id/review", authenticateToken, (req: Request, res: Response) => {
     return;
   }
 
+  // Validate appointmentDateTime is provided when scheduling
+  if (action === "schedule" && !appointmentDateTime) {
+    res.status(400).json({ error: "Appointment date and time are required when scheduling" });
+    return;
+  }
+
   let newStatus: string;
   switch (action) {
     case "prescribe":

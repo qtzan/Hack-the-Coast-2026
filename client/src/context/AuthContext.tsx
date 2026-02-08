@@ -18,6 +18,7 @@ interface AuthContextType {
   user: User | null;
   loading: boolean;
   login: (email: string, password: string) => Promise<void>;
+  doctorLogin: (lastName: string, healthcareId: string) => Promise<void>;
   register: (data: Record<string, any>) => Promise<void>;
   logout: () => void;
 }
@@ -51,6 +52,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setUser(fullUser);
   };
 
+  const doctorLogin = async (lastName: string, healthcareId: string) => {
+    const data = await apiFetch<{ token: string; user: User }>("/auth/doctor-login", {
+      method: "POST",
+      body: JSON.stringify({ lastName, healthcareId }),
+    });
+    localStorage.setItem("bridgecare_token", data.token);
+    const fullUser = await apiFetch<User>("/auth/me");
+    setUser(fullUser);
+  };
+
   const register = async (formData: Record<string, any>) => {
     const data = await apiFetch<{ token: string; user: User }>("/auth/register", {
       method: "POST",
@@ -68,7 +79,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, register, logout }}>
+    <AuthContext.Provider value={{ user, loading, login, doctorLogin, register, logout }}>
       {children}
     </AuthContext.Provider>
   );

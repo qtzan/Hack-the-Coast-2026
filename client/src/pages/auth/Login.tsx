@@ -6,9 +6,11 @@ import { Header } from "@/components/shared/Header";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [healthcareId, setHealthcareId] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { login, doctorLogin } = useAuth();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const role = searchParams.get("role") || "patient";
@@ -18,7 +20,11 @@ export default function Login() {
     setError("");
     setLoading(true);
     try {
-      await login(email, password);
+      if (role === "doctor") {
+        await doctorLogin(lastName, healthcareId);
+      } else {
+        await login(email, password);
+      }
       navigate(role === "doctor" ? "/doctor" : "/patient");
     } catch (err: any) {
       setError(err.message || "Login failed");
@@ -39,7 +45,9 @@ export default function Login() {
                 {role === "doctor" ? "Doctor" : "Patient"} Login
               </h2>
               <p className="font-bold text-[11px] text-[rgba(0,0,0,0.52)]">
-                Enter your credentials to continue
+                {role === "doctor"
+                  ? "Enter your last name and healthcare ID"
+                  : "Enter your credentials to continue"}
               </p>
             </div>
 
@@ -50,34 +58,70 @@ export default function Login() {
             )}
 
             <form onSubmit={handleSubmit} className="space-y-5">
-              <div>
-                <label htmlFor="email" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
-                  Email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="name@email.com"
-                  className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
-                  required
-                />
-              </div>
+              {role === "doctor" ? (
+                <>
+                  <div>
+                    <label htmlFor="lastName" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
+                      Last Name
+                    </label>
+                    <input
+                      id="lastName"
+                      type="text"
+                      value={lastName}
+                      onChange={(e) => setLastName(e.target.value)}
+                      placeholder="Enter your last name"
+                      className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
+                      required
+                    />
+                  </div>
 
-              <div>
-                <label htmlFor="password" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
-                  Password
-                </label>
-                <input
-                  id="password"
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
-                  required
-                />
-              </div>
+                  <div>
+                    <label htmlFor="healthcareId" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
+                      Healthcare ID
+                    </label>
+                    <input
+                      id="healthcareId"
+                      type="text"
+                      value={healthcareId}
+                      onChange={(e) => setHealthcareId(e.target.value)}
+                      placeholder="Enter your healthcare ID"
+                      className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
+                      required
+                    />
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div>
+                    <label htmlFor="email" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
+                      Email
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="name@email.com"
+                      className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] placeholder:text-[rgba(0,0,0,0.4)] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="password" className="font-bold text-[16px] text-[#1e1e1e] block mb-2">
+                      Password
+                    </label>
+                    <input
+                      id="password"
+                      type="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      className="w-full px-4 py-3 border-2 border-black rounded-xl bg-white text-[16px] text-[#1e1e1e] focus:outline-none focus:ring-2 focus:ring-[#f29d38] focus:border-[#f29d38] transition-all duration-200 h-[48px]"
+                      required
+                    />
+                  </div>
+                </>
+              )}
 
               <button
                 type="submit"
@@ -95,7 +139,7 @@ export default function Login() {
             )}
             {role === "doctor" && (
               <p className="text-[11px] text-[rgba(0,0,0,0.5)] text-center mt-4 bg-gray-50 rounded-lg p-2">
-                Demo: doctor@demo.com / doctor123
+                Demo: Last Name: Lee / Healthcare ID: abui1i2i1288fhn
               </p>
             )}
           </div>

@@ -1,9 +1,19 @@
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
+import { apiFetch } from "@/lib/api";
 import logoImg from "@/assets/logo.png";
 import profileImg from "@/assets/profile.png";
 import pillImg from "@/assets/pill.png";
 import { svgPaths } from "@/components/shared/svg-paths";
+
+interface Appointment {
+  id: number;
+  date_time: string;
+  reason: string;
+  status: string;
+  doctor_name?: string;
+}
 
 function ClipboardIcon() {
   return (
@@ -28,6 +38,19 @@ function MagnifyIcon() {
 export default function Dashboard() {
   const navigate = useNavigate();
   const { user } = useAuth();
+  const [appointments, setAppointments] = useState<Appointment[]>([]);
+
+  useEffect(() => {
+    apiFetch<Appointment[]>("/appointments")
+      .then((data) => {
+        const upcoming = data
+          .filter((a) => a.status === "scheduled")
+          .sort((a, b) => new Date(a.date_time).getTime() - new Date(b.date_time).getTime())
+          .slice(0, 3);
+        setAppointments(upcoming);
+      })
+      .catch(() => {});
+  }, []);
 
   return (
     <div className="flex flex-col">
@@ -103,6 +126,26 @@ export default function Dashboard() {
               <p className="font-bold text-[15px] text-[rgba(0,0,0,0.5)] text-center">Medication Lookup</p>
             </button>
           </div>
+
+          {/* Upcoming Appointments */}
+          {appointments.length > 0 && (
+            <div className="bg-white rounded-lg p-4 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] border border-[rgba(0,0,0,0.2)]">
+              <p className="font-bold text-[16px] text-[#1e1e1e] mb-3">Upcoming Appointments</p>
+              <div className="space-y-2">
+                {appointments.map((apt) => (
+                  <div key={apt.id} className="bg-[#e8f4f4] rounded-lg p-3">
+                    <p className="font-semibold text-[14px] text-[#1e1e1e]">{apt.reason}</p>
+                    {apt.doctor_name && (
+                      <p className="text-[12px] text-[rgba(0,0,0,0.5)]">{apt.doctor_name}</p>
+                    )}
+                    <p className="text-[13px] text-[#f29d38] font-semibold mt-1">
+                      {new Date(apt.date_time).toLocaleString()}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Appointments */}
           <button

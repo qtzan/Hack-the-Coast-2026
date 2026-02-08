@@ -42,6 +42,10 @@ export default function IntakeReview() {
   }, [id]);
 
   const handleSubmit = async () => {
+    if (action === "schedule" && !appointmentDate) {
+      alert("Please select an appointment date and time.");
+      return;
+    }
     setSubmitting(true);
     try {
       const body: Record<string, any> = { action, notes, advice };
