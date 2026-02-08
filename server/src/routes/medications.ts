@@ -33,7 +33,7 @@ router.get("/", (req: Request, res: Response) => {
   const search = (req.query.search as string || "").toLowerCase().trim();
 
   if (!search) {
-    res.json(medications.slice(0, 20));
+    res.json(medications);
     return;
   }
 
@@ -44,7 +44,7 @@ router.get("/", (req: Request, res: Response) => {
       med.uses.some((u) => u.toLowerCase().includes(search))
   );
 
-  res.json(results.slice(0, 50));
+  res.json(results);
 });
 
 export default router;

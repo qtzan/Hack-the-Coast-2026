@@ -46,7 +46,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       body: JSON.stringify({ email, password }),
     });
     localStorage.setItem("bridgecare_token", data.token);
-    setUser(data.user);
+    // Fetch full profile to get all personal details
+    const fullUser = await apiFetch<User>("/auth/me");
+    setUser(fullUser);
   };
 
   const register = async (formData: Record<string, any>) => {
@@ -55,7 +57,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       body: JSON.stringify(formData),
     });
     localStorage.setItem("bridgecare_token", data.token);
-    setUser(data.user);
+    // Fetch full profile to get all personal details
+    const fullUser = await apiFetch<User>("/auth/me");
+    setUser(fullUser);
   };
 
   const logout = () => {
