@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal-bg: #e8f4f4;
+  --color-orange: #f29d38;
+  --color-orange-hover: #e08d28;
+  --color-dark: #2c2c2c;
+  --color-green-light: #c1fecc;
+  --color-green: #38ea44;
+}
+
+body {
+  margin: 0;
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #e8f4f4;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
