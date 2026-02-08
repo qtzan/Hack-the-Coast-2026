@@ -1,6 +1,6 @@
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
-import { Home, FileText, Users, LogOut } from "lucide-react";
+import { Home, Users, User, LogOut } from "lucide-react";
 
 export default function DoctorLayout() {
   const navigate = useNavigate();
@@ -15,6 +15,7 @@ export default function DoctorLayout() {
   const navItems = [
     { path: "/doctor", icon: Home, label: "Dashboard" },
     { path: "/doctor/patients", icon: Users, label: "Patients" },
+    { path: "/doctor/profile", icon: User, label: "Profile" },
   ];
 
   return (

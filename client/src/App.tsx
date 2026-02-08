@@ -14,6 +14,7 @@ import DoctorLayout from "@/pages/doctor/DoctorLayout";
 import DoctorDashboard from "@/pages/doctor/DoctorDashboard";
 import IntakeReview from "@/pages/doctor/IntakeReview";
 import PatientList from "@/pages/doctor/PatientList";
+import DoctorProfile from "@/pages/doctor/DoctorProfile";
 
 function ProtectedRoute({ children, requiredRole }: { children: React.ReactNode; requiredRole?: string }) {
   const { user, loading } = useAuth();
@@ -70,6 +71,7 @@ function AppRoutes() {
         <Route index element={<DoctorDashboard />} />
         <Route path="intake/:id" element={<IntakeReview />} />
         <Route path="patients" element={<PatientList />} />
+        <Route path="profile" element={<DoctorProfile />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/" replace />} />
