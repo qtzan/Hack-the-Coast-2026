@@ -29,7 +29,7 @@ export default function DoctorProfile() {
               <div className="absolute bottom-1 right-1 w-6 h-6 bg-[#4ade80] border-4 border-white rounded-full"></div>
             </div>
             <h2 className="font-bold text-[36px] text-[#1e1e1e] mb-2 leading-tight">
-              Dr. {user.fullName}
+              {user.fullName}
             </h2>
             <div className="inline-flex items-center gap-2 bg-[#4A9EFF] bg-opacity-10 px-4 py-2 rounded-full">
               <div className="w-2 h-2 bg-[#4A9EFF] rounded-full"></div>

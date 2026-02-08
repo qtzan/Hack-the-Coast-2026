@@ -155,7 +155,7 @@ export default function History() {
                               )}
                               <p className="text-[11px] text-[rgba(0,0,0,0.4)] mt-2">
                                 {new Date(intake.created_at).toLocaleDateString()}
-                                {intake.doctor_name && ` - Dr. ${intake.doctor_name}`}
+                                {intake.doctor_name && ` - ${intake.doctor_name}`}
                               </p>
                             </motion.div>
                           )}

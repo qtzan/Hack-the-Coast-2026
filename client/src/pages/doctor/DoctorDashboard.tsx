@@ -51,26 +51,28 @@ export default function DoctorDashboard() {
           <p className="font-bold text-[20px] text-[rgba(0,0,0,0.3)] mb-4">
             Doctor Portal
           </p>
-          <div className="relative bg-white border-4 border-[#4A9EFF] rounded-lg p-8 flex items-center justify-between gap-6">
-            <div className="flex-1 flex items-center justify-center gap-6">
-              <div className="size-[100px] flex-shrink-0">
-                <img alt="BridgeCare Logo" className="w-full h-full object-contain" src={logoImg} />
+          <div className="bg-white border-4 border-[#4A9EFF] rounded-lg p-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="size-[50px] flex-shrink-0">
+                  <img alt="BridgeCare Logo" className="w-full h-full object-contain" src={logoImg} />
+                </div>
+                <p className="font-bold text-[24px] text-[#f29d38]">
+                  BridgeCare
+                </p>
               </div>
-              <p className="font-bold text-[36px] text-[#f29d38] whitespace-nowrap">
-                BridgeCare
-              </p>
+              <button
+                className="w-[44px] h-[44px] transition-all duration-200 hover:scale-110 active:scale-95 rounded-full flex-shrink-0"
+                onClick={() => navigate("/doctor/profile")}
+                aria-label="Profile"
+              >
+                <img alt="Profile" className="w-full h-full object-contain" src={profileImg} />
+              </button>
             </div>
-            <button
-              className="w-[70px] h-[70px] transition-all duration-200 hover:scale-110 active:scale-95 rounded-full flex-shrink-0"
-              onClick={() => navigate("/doctor/profile")}
-              aria-label="Profile"
-            >
-              <img alt="Profile" className="w-full h-full object-contain" src={profileImg} />
-            </button>
           </div>
           {user && (
             <p className="text-[14px] text-[rgba(0,0,0,0.5)] mt-2 text-center">
-              Welcome back, Dr. {user.fullName}
+              Welcome back, {user.fullName}
             </p>
           )}
         </div>
