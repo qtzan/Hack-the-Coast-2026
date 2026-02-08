@@ -90,7 +90,7 @@ The client will start on `http://localhost:5173`. Open this URL in your browser.
 
 ## Doctor Registration Codes
 
-To register as a doctor, you need a valid registration code. Available codes:
+To register as a doctor, you will need a valid registration code. Available codes:
 
 - `BRIDGE2026`
 - `DOCTOR001`
